@@ -8,4 +8,4 @@ def vypis(x):
 def soucet(a, b):
     return a + b
 vysledek = soucet(19, 23)
-    print(vysledek)
+print(vysledek)
