@@ -1,0 +1,46 @@
+print (type (73))
+
+print (73.73, int(73.73))
+print (-41.91, int(-41.91))
+
+print ("""she exclaimed: "My God, he is pretty". Then walked away.""")
+
+print (type(str(123.45)))
+print ( int(123.98))
+
+message = "Hola Hej"
+print (message)
+print (type(message))
+den = "Lundi"
+print (den)
+den = "Pondeli"
+print (den)
+
+print ("""funkce "len" ti spocita pismena stringu""")
+print (len("chemistry"))
+print (2 + 6)
+pismena = len("chemistry")
+print (pismena)
+
+print (6 / 4)
+print (6 // 4)
+print (-6 // 4)
+print (6 // -4)
+# // posouvá vysledek vzdy k nejblizsimu mensimu int - tedy k nejblizsimu int nalevo na ciselne ose
+print(9 // 4)
+print(9 % 4)
+# % ti vyhodi zbytek deleni pomoci //
+total_secs = 6666
+hours = total_secs // 3600
+remaining_secs = total_secs % 3600
+print(hours)
+print(remaining_secs)
+remaining_minutes = remaining_secs // 60
+print(remaining_minutes)
+finally_remaining_secs = remaining_secs % 60
+print(finally_remaining_secs)
+# 6666 je 1 h 51 min 6 s
+# jupiiiiii
+
+n = input("Please enter your name")
+print (n)

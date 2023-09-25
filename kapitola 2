@@ -1,4 +1,0 @@
-print (type(73))
-
-print (73,73, int(73,73))
-print (-41,91, int(-41,91))
