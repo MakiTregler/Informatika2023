@@ -44,3 +44,5 @@ print(finally_remaining_secs)
 
 n = input("Please enter your name")
 print (n)
+
+print (type(int("Hello, World")))
