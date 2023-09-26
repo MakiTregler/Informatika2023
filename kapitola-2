@@ -54,3 +54,13 @@ c = "Your time will go off at:"
 c = (a + b) % 24
 print (c)
 #Proc je spatne radek 54?
+
+starting_day_string = input("Enter a number of the day your holiday started")
+lenght_string = input("Enter a number of days you were enjoying your holiday")
+
+starting_day_int = int(starting_day_string)
+lenght_int = int(lenght_string)
+
+holiday_lenght = starting_day_int + lenght_int
+day_of_return = holiday_lenght % 7
+actual_day_of_return = day_of_return - 1
