@@ -64,3 +64,21 @@ lenght_int = int(lenght_string)
 holiday_lenght = starting_day_int + lenght_int
 day_of_return = holiday_lenght % 7
 actual_day_of_return = day_of_return - 1
+
+a = "All"
+b = "work"
+c = "and"
+d = "no"
+e = "play"
+f = "makes"
+g = "Jack"
+h = "a"
+ch = "dull"
+j = "boy"
+print(a, b, c, d, e, f, g, h, ch, j)
+#Dala jsem to!
+radius_str = input("Enter the radius")
+radius_int = int(radius_str)
+result = 2 * 3.14 * radius_int
+print(result)
+#Funguje!
