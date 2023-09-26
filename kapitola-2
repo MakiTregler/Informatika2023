@@ -80,5 +80,12 @@ print(a, b, c, d, e, f, g, h, ch, j)
 radius_str = input("Enter the radius")
 radius_int = int(radius_str)
 result = 2 * 3.14 * radius_int
-print(result)
+print("The area of your little circle is:", result)
 #Funguje!
+miles = input("Enter the number of miles driven.")
+miles_int = int(miles)
+gallons = input("Enter the number of gallons used.")
+gallons_int = int(gallons)
+mpg = miles_int / gallons_int
+print("MPG of your car is:", mpg)
+#jupiii
