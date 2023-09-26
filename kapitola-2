@@ -42,14 +42,15 @@ print(finally_remaining_secs)
 # 6666 je 1 h 51 min 6 s
 # jupiiiiii
 
-n = input("Please enter your name")
-print(n)
-
-print(type(int("Hello, World")))
+# Ted mi to z nejakeho duvodu prestalo printit uplne vsechno, prooooc?
 print (12 % 15)
 
+#zaverecne cviceni 1
 a = input("What time is it?")
 print (a)
 b = input("After how many hours do you want your alarm to go off?")
 print (b)
 c = "Your time will go off at:"
+c = (a + b) % 24
+print (c)
+#Proc je spatne radek 54?

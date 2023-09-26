@@ -1,0 +1,5 @@
+a = input("What time is it?")
+print (a)
+b = input("After how many hours do you want your alarm to go off?")
+print (b)
+c = (a + b) % 24
