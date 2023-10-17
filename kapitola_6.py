@@ -11,7 +11,7 @@ wn = turtle.Screen()
 wn.bgcolor("lightgreen")
 
 alex = turtle.Turtle()
-alex.color("darkblue")
+alex.color("pink")
 
 wn.exitonclick()
 
