@@ -33,3 +33,24 @@ alex.penup()
 alex.goto(-40,-40)
 alex.pendown()
 drawSquare(alex,100)
+
+def drawPoly (t, ss, sz)
+    """Get turtle t to draw a polygon of sz size"""
+
+    for i in range(4)
+        t.forward(sz)
+        t.left(135)
+
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+tess = turtle.Turtle()
+tess.color("darkblue")
+
+wn.exitonclick()
+
+tess.goto(0,0)
+drawPoly(alex, 8, 50)
+
+tess.goto(0,0)
+drawPoly(tess, 8, 50)
