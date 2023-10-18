@@ -41,7 +41,7 @@ def drawPoly (t, ss, sz)
         t.forward(sz)
         t.left(135)
 
-wn = turtle.Screen()
+wn = turtle.Screen() # Set up the window and its attributes
 wn.bgcolor("lightgreen")
 
 tess = turtle.Turtle()
@@ -54,3 +54,28 @@ drawPoly(tess, 8, 50)
 
 tess.goto(0,0)
 drawPoly(tess, 8, 50)
+
+# PrettyPattern
+
+def drawSquare(t, sz):
+    """Get turtle t to draw a square of sz side"""
+
+    for i in range(4):
+        t.forward(sz)
+        t.left(90)
+
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+
+alex = turtle.Turtle()
+alex.color("darkblue")
+alex.speed(100)
+
+color = ["darkblue", "orange", "darkgreen", "yellow"]
+wn.exitonclick()
+
+alex.goto(0,0)
+for n in range(20):
+    alex.color = color[n % len(color)]
+    alex.left(360/20)
+    drawSquare(alex, 80)
