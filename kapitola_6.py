@@ -76,6 +76,6 @@ wn.exitonclick()
 
 alex.goto(0,0)
 for n in range(20):
-    alex.color = color[n % len(color)]
+    alex.color(color[n % len(color)])
     alex.left(360/20)
     drawSquare(alex, 80)
