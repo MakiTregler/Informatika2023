@@ -50,7 +50,7 @@ tess.color("darkblue")
 wn.exitonclick()
 
 tess.goto(0,0)
-drawPoly(alex, 8, 50)
+drawPoly(tess, 8, 50)
 
 tess.goto(0,0)
 drawPoly(tess, 8, 50)
